@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/equation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:layout_weight="1"
+        android:gravity="bottom|end"
+        android:hint="@string/default_calc"
+        android:textSize="38sp" />
+
+    <TableLayout
+        android:id="@+id/calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_9" />
+
+            <Button
+                android:id="@+id/buttondiv"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/div" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/buttonmul"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/mul" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_3" />
+
+            <Button
+                android:id="@+id/buttonsub"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/sub" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+
+            <Button
+                android:id="@+id/buttonC"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/button0"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/_0" />
+
+            <Button
+                android:id="@+id/buttonEquals"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="doMath"
+                android:text="@string/equals" />
+
+            <Button
+                android:id="@+id/buttonadd"
+                style="@style/Button"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="updateEquation"
+                android:text="@string/add" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

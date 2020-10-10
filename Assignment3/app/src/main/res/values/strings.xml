@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="puppy_pics">puppy pics</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+</resources>

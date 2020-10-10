@@ -1,0 +1,13 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/pup1" android:duration="300" />
+    <item android:drawable="@drawable/pup2" android:duration="300" />
+    <item android:drawable="@drawable/pup3" android:duration="300" />
+    <item android:drawable="@drawable/pup4" android:duration="300" />
+    <item android:drawable="@drawable/pup5" android:duration="300" />
+    <item android:drawable="@drawable/pup6" android:duration="300" />
+    <item android:drawable="@drawable/pup7" android:duration="300" />
+    <item android:drawable="@drawable/pup8" android:duration="300" />
+    <item android:drawable="@drawable/pup9" android:duration="300" />
+    <item android:drawable="@drawable/pup10" android:duration="300" />
+</animation-list>

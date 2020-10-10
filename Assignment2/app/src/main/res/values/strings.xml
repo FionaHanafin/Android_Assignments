@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="across_the_lines">Across The Lines</string>
+    <string name="break_free">Break Free</string>
+    <string name="hey_brother">Hey Brother</string>
+    <string name="chasing_pavements">Chasing Pavements</string>
+    <string name="pompeii">Pompeii</string>
+    <string name="hungry_heart">Hungry Heart</string>
+    <string name="summer">Summer</string>
+    <string name="good_girls">Good Girls</string>
+    <string name="kryptonite">Kryptonite</string>
+</resources>
